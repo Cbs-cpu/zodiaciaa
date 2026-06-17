@@ -1,0 +1,31 @@
+extends Node
+
+enum GameState {
+	MENU,
+	PLAYING,
+	PAUSED,
+	GAME_OVER,
+}
+
+enum EnemyType {
+	ARIES,
+	TAURUS,
+	GEMINI,
+	CANCER,
+	LEO,
+	VIRGO,
+	LIBRA,
+	SCORPIO,
+	SAGITTARIUS,
+	CAPRICORN,
+	AQUARIUS,
+	PISCES,
+}
+
+enum ItemType {
+	COIN,
+	HEART,
+	POWERUP_SPEED,
+	POWERUP_DAMAGE,
+	POWERUP_SHIELD,
+}
